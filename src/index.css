@@ -1,0 +1,490 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom, #eef9ff -10%, #ade1ff);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.BG_Header {
+  position: relative;
+  background: url('./Images/bg-header.png')  no-repeat  ;
+  background-size: contain;
+  width: 100vw;
+  min-height: 110vh;
+  /* object-fit: cover; */
+}
+
+.CampK12-Logo {
+  width: 144px;
+  height: 24px;
+  object-fit: contain;
+}
+.header-ul{
+  display: flex;
+  justify-content: space-around;
+}
+.header-li{
+  display: inline-block;
+  border-radius: 5px;
+ 
+}
+.Leaderboard {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+.Group-36 {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+.Oval {
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #ff677f;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+ ;
+}
+.Oval-text {
+ position: relative;
+ top: -7px;
+  right: 0px;
+  width: 6px;
+  height: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.13px;
+  color: #ffffff;
+}
+
+.Rectangle-17 {
+  width: 104px;
+  height: 34px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #71aef3;
+/* display: flex; */
+justify-content: space-between;
+float: right;
+align-items: center;
+  
+}
+.Rectangle-100{
+  width: 30px;
+  height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.Skill-Icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.Bitmap {
+  width: 33.5px;
+  height: 34px;
+}
+.Rectangle-32 {
+  /* width: 1440px;
+  height: 773px; */
+  background-image: linear-gradient(to bottom, #207cee 39%, #60b9f2 89%, #aafef7 121%);
+ 
+  
+}
+
+.img-ul{
+ display: flex;
+ justify-content: space-between;
+ float: right;
+ align-items: center;
+ list-style: none;
+ padding: 0;
+ width: 100%;
+
+}
+.Shape {
+  width: 12px;
+  height: 12px;   /* 7px */
+  object-fit: contain;
+
+  /* background-color: white; */
+  /* background-color: linear-gradient(to bottom, #207cee 39%, #60b9f2 89%, #aafef7 121%);; */
+}
+
+.Header-Photo {
+  width: 469px;
+  height: 300px;
+  object-fit: contain;
+}
+
+
+
+.Welcome-to-the-schoo {
+  width: 533px;
+  height: 120px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 52px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: 0.22px;
+  color: #ffffff;
+}
+
+.Cutting-edge-technol {
+  /* width: 665px;
+  height: 102px; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: 0.24px;
+  color: #ffffff;
+}
+.Cutting-edge-technol .text-style-1 {
+  color: #fcda55;
+}
+
+.CampK12Coins-Copy-2 {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.What-do-you-want-to {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: 0.18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Rectangle-242{
+  /* position: relative;
+  z-index: -5;
+  top:-20vh ;  
+  width: 100vw;
+  height: 100vh; */
+  background-image: linear-gradient(to bottom, #eef9ff -10%, #ade1ff);
+}
+
+.Background-Color {
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  border: solid 1px #ebebeb;
+  background-color: #f9fcff;
+ border-radius:5px
+  ;
+}
+
+.Rectangle-16 {
+  width: 180px !important;
+  height: 200px;
+  /* padding: 5px; */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #ebebeb;
+  background-color: #ffffff;
+}
+.Group-14 {
+  width: 80px;
+  height: 80px;
+  /* object-fit: contain; */
+}
+.Sample-text {
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  /* text-align: center; */
+  color: #1f2a55;
+}
+
+.Upcoming-online-cour {
+  width: 420px;
+  height: 44px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: 0.18px;
+  color: var(--dark-blue-grey);
+}
+
+.Rectangle {
+  /* width: 87px;
+  height: 34px; */
+  background-color: #de9dff;
+  border-radius: 5px;
+  margin-top: 6rem;
+  
+}
+
+/* .Oval { 
+  background-color: #ffffff;
+  font-weight: 800;
+  color: white;
+  width: 10px;
+  height: 10px;
+  border:1px solid white;
+  border-radius: 5px;
+} */
+.LIVE {
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.44;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Learn-from-live-teac {  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #777b8c;
+}
+
+.shield-3 {
+  width: 17px;
+  height: 20px;
+  object-fit: contain;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.Background {
+  width: 274px;
+  height: 588px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #dbe4ee;
+  background-color: #ffffff;
+}
+
+.Course-Name {
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: 0.2px;
+  color: #1f2a55;
+}
+
+.Fill-1 {
+  width: 13px;
+  height: 15px;
+
+  /* object-fit: contain; */
+  /* border: solid 0.2px #777b8c;
+  background-color: #777b8c; */
+}
+
+
+.GRADES {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.17px;
+  color: #777b8c;
+}
+
+.Skill-Icon2 {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.TAG-TEXT {
+  background-color: #DFFEF8;
+  font-family:'Montserrat', sans-serif ;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: green;
+  text-transform: uppercase;
+}
+.CampK12Coins-Copy-3 {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.Start-Date {
+
+  font-family:'Montserrat', sans-serif ;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.2px;
+  color: var(--dark-blue-grey);
+}
+
+.Rs-6000 {
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: var(--dark-blue-grey);
+}
+.enroll{
+  background-color: transparent;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #076fec;
+}
+
+.Footer {
+
+  height: 60px;
+  background-image: linear-gradient(82deg, #207cee -3%, #73caf3 119%);
+}
+
+.Questions-Contact-u {
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.2;
+  letter-spacing: 0.11px;
+  text-align: center;
+  color: #ffffff;
+}
+.Questions-Contact-u .span-text {
+  font-weight: bold;
+}
+
+.full{
+  width: 100vw;
+}
+
+.up-card{
+   width: 80%;
+    border-radius: 5px;
+     overflow: hidden ;
+     height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  /* .Header-Photo {
+    width: 316px; 
+   } */
+
+   .BG_Header {
+ 
+    /* background-size: contain; */
+    background: url('./Images/bg-header@2x.png') no-repeat  ;
+    width: 152vw;
+    height: 150vh;
+    /* object-fit: cover; */
+  }
+  .Rectangle-242{
+    /* width: 150vw;
+     */
+     height: 90vh;
+  }
+  .full{
+    width: 150vw;
+  }
+
+  .img-ul{
+   
+    float: unset;
+    width: 120px;
+    margin: 0 auto;
+   
+   }
+   .show-sm {
+    justify-content: "center" !important
+   }
+   .Oval {  
+    right: 218px;
+  }
+  
+  .bg-img{
+    height: 200px;
+  }
+  .up-card{
+    width: 70%;
+  }
+  
+}
